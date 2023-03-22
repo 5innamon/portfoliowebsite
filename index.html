@@ -218,10 +218,19 @@
                 </div>
             </div>
             <div class="formBx">
-               	<form class="message" action="https://formsubmit.co/krishenlane@gmail.com/" method="POST">
+               	<form action="https://formsubmit.co/krishenlane@gmail.com" method="POST">
+					
+					<input type="text" name="_honey" style="display:none">
+					
+					<input type="hidden" name="_captcha" value="false">
+					
                     <h3>Message Me</h3>
-                    <input type="text" placeholder="Full Name" name="">
-                    <input type="email" placeholder="Email" name="">
+					<label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" placeholder="Full Name" name="Full Name" id="fullName" required>
+					
+					<label for="email" class="form-label"></label>
+                    <input type="email" placeholder="Email" name="Email" id="email">
+					
                     <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
                     <input type="submit" value="Send Message" name="">
                 </form>
