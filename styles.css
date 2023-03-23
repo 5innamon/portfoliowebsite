@@ -75,7 +75,7 @@ section{
 	position: relative;
 	min-height: 100vh;
 	background: #111;
-	background:url(images/IMG_2262.JPG);
+	background:url("images/code.jpg");
 	background-size: cover;
 	background-position: right;
 	display: flex;
@@ -86,7 +86,7 @@ section{
 
 .banner h2{
 	font-size: 2.53em;
-	color:#444;
+	color:#EFEFEF;
 	font-weight: 300;
 	line-height: 1.5em;
 }
